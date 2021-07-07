@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.img_button {
+  align-self: center;
+  background: black;
+  color: gold;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px lightgrey;
+  cursor: pointer;
+}
+
+.images_facts {
+  width: 80%;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #f2cd99
+}
+
+.images_facts img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+.images_facts img:first-of-type {
+  display: block;
+}
