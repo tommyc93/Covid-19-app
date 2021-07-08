@@ -2,12 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
-    <title></title>
+    <title>Covid-19 Dataset</title>
   </head>
   <body>
       <div class="container">
+        <header>
+          <a href="index.html" class="top_page">Home</a>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" class="top_page">Covid-19_Facts</a>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html" class="top_page">Vaccine-Info</a>
+          <a href="https://www.vaccines.gov/" class="top_page">Make-Appointment</a>
+        </header>
           <h1>COVID-19 Around the World</h1>
           <div class="carousel">
               <div class="img_button previous">
@@ -16,26 +23,35 @@
               <div class="images_facts">
                   <img
                   src="https://loyolamedicine.org/sites/default/files/styles/blog_news_basic_page_image/public/blog/bn-1-covid-myths-facts.jpg?itok=jG0QBoP9"
-                  alt="https://i.ytimg.com/vi/F70BzSFAZfw/maxresdefault.jpg">
+                  alt="">
                   <img
                   src="https://www.childrens.com/wps/wcm/connect/childrenspublic/f58d2122-fa29-424e-b340-7c1fe1aa3a12/CHST210108_Vaccine-Myths-Infographic-and-Content-Design-H%26W-%2816520%29_Final_800.jpg?MOD=AJPERES&CVID="
-                  alt="https://www.watertown-ma.gov/ImageRepository/Document?documentId=31104">
+                  alt="">
                   <img
                   src="https://jhlibrary.org/storage/2020/03/stop-the-spread-of-germs-scaled.jpg"
-                  alt="https://www.uab.edu/news/images/2018/nycu_vaccine.3.jpg">
+                  alt="">
+                  <img src="https://i.ytimg.com/vi/F70BzSFAZfw/maxresdefault.jpg" alt="">
+                  <!-- <img src="https://www.watertown-ma.gov/ImageRepository/Document?documentId=31104" alt=""> -->
+                  <img src="https://www.uab.edu/news/images/2018/nycu_vaccine.3.jpg" alt="">
               </div>
               <div class="img_button next">
                   <span class="lnr lnr-chevron-right"></span>
               </div>
           </div>
-              <form>
-                  <input type="text" placeholer="# of whatever" value="">
-              </form>
-              <div class="countries">
-                  <ul>
+          <form>
+            <input type="button" class="north_america" value="North America"/>
+            <input type="button" class="south_america" value="South America"/>
+            <input type="button" class="europe" value="Europe"/>
+            <input type="button" class="africa" value="Africa"/>
+            <input type="button" class="asia" value="Asia"/>
+            <input type="button" class="australia" value="Australia"/>
+            <input type="button" class="antarctica" value="Antarctica"/>
+          </form>
+          <div class="dataset">
+              <dl>
 
-                  </ul>
-              </div>
+              </dl>
+          </div>
       </div>
   </body>
 </html>
