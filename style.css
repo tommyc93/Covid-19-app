@@ -46,7 +46,6 @@ header {
 	padding: 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
-	box-shadow: 2px 2px #f2cd99;
 }
 .images_facts img {
 	width: 100%;
@@ -61,12 +60,10 @@ header {
 	padding: 10px;
 	border-radius: 50%;
 	text-align: center;
-	box-shadow: 1px 1px #fa8d8e;
 }
 .img_button:hover {
 	cursor: pointer;
 	background: gray;
-	box-shadow: 1px 1px #f2cd99;
 	color: white;
 }
 
@@ -80,4 +77,19 @@ form {
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+ul {
+  font-weight: 900
+}
+
+li {
+  font-weight: normal;
 }
