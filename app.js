@@ -47,29 +47,45 @@ $(() => {
               const $country = $('<ul>')
               .text(dataset)
               .addClass('countries')
+              .css('color', 'white')
               .appendTo('.country')
 
               const $population = $('<li>')
               .text(`Population size: ${data[dataset].All.population}`)
+              .css('list-style-type', 'none')
               .appendTo($country)
 
               const $confirmed = $('<li>')
               .text(`Confirmed cases: ${data[dataset].All.confirmed}`)
+              .css('list-style-type', 'none')
+              .css('color', 'orange')
               .appendTo($country)
 
               const $recovered = $('<li>')
               .text(`Recovered: ${data[dataset].All.recovered}`)
+              .css('list-style-type', 'none')
+              .css('color', 'lightgreen')
               .appendTo($country)
 
               const $deaths = $('<li>')
               .text(`Deaths: ${data[dataset].All.deaths}`)
+              .css('list-style-type', 'none')
+              .css('color', 'red')
               .appendTo($country)
 
               const $life_expectancy = $('<li>')
               .text(`Average Life Expectancy: ${data[dataset].All.life_expectancy}`)
+              .css('list-style-type', 'none')
               .appendTo($country)
 
             }
+            // const arr = data
+            // arr.forEach((i) => {
+            //   console.log(i)
+            // })
+            // arr.push(dataset)
+            //
+            // console.log(arr[0][1])
 
         },
         () => {
