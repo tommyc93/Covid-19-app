@@ -34,8 +34,6 @@ Started with wire-framing to decide how I wanted to approach the project.  I tho
 - GitHub
 - Netlify
 
-#### Unsolved Problems
-
 #### Solved Problems
 - Was able to figure out why I could not call my API correctly.  I forgot that a normal for loop couldn't be used in my instance because the data was a set of objects within objects within objects.  I had to use a for in loop referencing dataset in data.  To call the information I had use data[dataset] first then I could I use dot notation.
 - Learned to create a separate scrollbar for my dataset by putting it in a div, and adjusting the size to a smaller window-size.
