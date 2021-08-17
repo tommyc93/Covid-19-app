@@ -22,7 +22,7 @@ Started with wire-framing to decide how I wanted to approach the project.  I tho
 - Incorporate a scroll bar for the Covid-19 dataset.
 - Make it mobile friendly
 - Use Modals
-- 
+ 
 ## Technologies/Languages Used
 - HTML
 - jQuery
