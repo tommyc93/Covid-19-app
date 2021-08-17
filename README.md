@@ -1,7 +1,7 @@
-# Covid-19-app  |[Link] (https://musing-hoover-063808.netlify.app) |
+# Covid-19-app  |[Link](https://musing-hoover-063808.netlify.app) |
 
 ## Authors
-- Tommy Chung |[LinkedIn](www.linkedin.com/in/tommy-chung93)|  |[GitHub](https://github.com/tommyc93)|
+- Tommy Chung |[LinkedIn](https://www.linkedin.com/in/tommy-chung93)|  |[GitHub](https://github.com/tommyc93)|
 
 ### Approach
 #### Picking a Project Idea
