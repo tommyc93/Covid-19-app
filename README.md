@@ -1,15 +1,45 @@
-# Covid-19-app
+# Covid-19-app  |[Link] (https://musing-hoover-063808.netlify.app) |
 
-In this project I used a carousel, button input with a click, scroll bar for info, and created active hyperlinks on helpful facts.  You can also click the link to find and make an appointment for a vaccine near you.
+## Authors
+- Tommy Chung |[LinkedIn](www.linkedin.com/in/tommy-chung93)|  |[GitHub](https://github.com/tommyc93)|
 
-The beginning of my approach was to find a working API I can pull related to health.
+### Approach
+#### Picking a Project Idea
+Started with wire-framing to decide how I wanted to approach the project.  I thought that it would be cool to create an informative app about Covid-19.
 
-After some time, I landed on covid-19 cases.
+#### Data Structure
+- Create and link HTML, Javascript, and CSS
 
-I wire-framed to build on how I wanted to structure the website itself.
+## User Stories
+#### Core
+- User should be able to click to active Covid-19 links in the header
+- Should be usable in both windows and mobile viewing
+- User can be able to scroll through a carousel of images using buttons
+- Convert and filter Covid-19 API with buttons depending on the continent
 
-After deciding on how I wanted to move forward I started with the HTML aspect, then javascript, and css for last.
+#### Stretch
+- Carousel of images
+- Incorporate a scroll bar for the Covid-19 dataset.
+- Make it mobile friendly
+- Use Modals
+## Technologies/Languages Used
+- HTML
+- jQuery
+- CSS
+- Javascript
+- Ajax
 
-If I could redo I would like to add modal to my project but I just don't know where I would use it at the moment.
+#### Project Management, hosting, and deployed
+- GitHub
+- Netlify
 
-Here is the link to my project: https://musing-hoover-063808.netlify.app
+#### Unsolved Problems
+
+#### Solved Problems
+- Was able to figure out why I could not call my API correctly.  I forgot that a normal for loop couldn't be used in my instance because the data was a set of objects within objects within objects.  I had to use a for in loop referencing dataset in data.  To call the information I had use data[dataset] first then I could I use dot notation.
+- Learned to create a separate scrollbar for my dataset by putting it in a div, and adjusting the size to a smaller window-size.
+- Learned how to use flexbox by just creating everything in a div and giving them their own unique id/class.
+
+#### Reflection Section
+- If I had more time I would have like to incorporate Modals, but I just didn't know where I would use it.
+
