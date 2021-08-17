@@ -1,4 +1,4 @@
-# |[Covid-19-app](https://musing-hoover-063808.netlify.app) |
+# [Covid-19-app](https://musing-hoover-063808.netlify.app)
 
 ## Authors
 - Tommy Chung |[LinkedIn](https://www.linkedin.com/in/tommy-chung93)|  |[GitHub](https://github.com/tommyc93)|
